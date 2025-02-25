@@ -1,0 +1,39 @@
+/* Heading Style */
+h1 {
+    /* Apply a cursive, playful font to the heading */
+    font-family: 'Sue Ellen Francisco', cursive;
+    
+    /* Make the font size large enough to grab attention */
+    font-size: 3rem;
+    
+    /* Give the heading a vibrant color (tomato red) for emphasis */
+    color: #ff6347;
+    
+    /* Center the heading on the page for better alignment */
+    text-align: center;
+    
+    /* Add some space between letters for a whimsical, hand-drawn look */
+    letter-spacing: 4px;
+}
+
+/* Paragraph Style */
+p {
+    /* Use a fun, flowing cursive font for the paragraph text */
+    font-family: 'La Belle Aurore', cursive;
+    
+    /* Set a comfortable font size for easy readability */
+    font-size: 1.5rem;
+    
+    /* Use a bold, indigo color for the paragraph text for visual contrast */
+    color: #4b0082;
+    
+    /* Justify the text for a clean, professional appearance */
+    text-align: justify;
+    
+    /* Increase line height to give the text more breathing room and improve readability */
+    line-height: 2.5;
+    
+    /* Add a bit of space between letters to make the text look more airy and fun */
+    letter-spacing: 2px;
+}
+
