@@ -1,0 +1,66 @@
+/* paragaraph styling */
+body {
+    
+    background-color: paleturquoise;
+    color: maroon;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 28px;
+    color: green ;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+b {
+    font-size: 18px;
+    color: blue;
+}
+
+blockquote {
+    margin: 10px 0 10px 20px;
+    padding-left: 15px;
+    border-left: 3px solid red;
+    font-style: italic;
+    color: brown;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+i {
+    color:black;
+}
+
+
+
+/* Addendum styling */
+#addendum {
+    background-color: palegoldenrod;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 2px solid black;
+   b{
+    color: darkmagenta;
+   }
+    font-size: 14px;
+    color: brown;
+    font-family: 'Verdana', sans-serif;
+}
+
