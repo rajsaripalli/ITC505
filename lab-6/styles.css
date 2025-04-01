@@ -1,0 +1,87 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+    grid-template-rows: 100px 1fr 50px;
+    grid-template-columns: 200px 1fr 200px;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ececec;
+}
+
+header {
+    grid-area: header;
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header img {
+    height: 80px;
+}
+
+nav {
+    grid-area: nav;
+    background: #444;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+    background: lightgrey;
+}
+
+aside {
+    grid-area: aside;
+    background: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background:Blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: royalblue;
+}
+
+input {
+    padding: 5px;
+}

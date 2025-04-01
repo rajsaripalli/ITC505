@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://static.vecteezy.com/system/resources/previews/035/926/028/non_2x/logo-design-graphic-concept-creative-abstract-premium-sign-unique-stock-letter-initial-word-bubble-font-water-related-to-monogram-nature-fresh-vector.jpg" alt="Site Logo">
+        <h1>My Simple Sorting Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Number Sorter</h2>
+        <p>Enter numbers separated by commas:</p>
+        <input type="text" id="numbers" placeholder="e.g. 5, 2, 9, 1">
+        <button onclick="sortNumbers()">Sort</button>
+        <p>Sorted Result: <span id="result"></span></p>
+    </main>
+    <aside>
+        <a href="https://www.amazon.com/dp/B0BSPYNF26?th=1" target="_blank">
+            <img src="https://m.media-amazon.com/images/I/71aYdJeik9L._SL1500_.jpg" alt="Product Ad" width="100%">
+        </a>
+    </aside>
+    <footer>
+        <p>Last updated: <span id="lastModified"></span></p>
+        <script>
+            document.getElementById('lastModified').textContent = document.lastModified;
+        </script>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
