@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simba's Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Simba's Adventure</h1>
+    </header>
+    
+    <main>
+        <button id="start-button">Start Game</button>
+        <button id="reset-button" style="display:none;">Reset Game</button>
+
+        <div id="game-container" style="display:none;">
+            <div id="story"></div>
+            <div id="choices"></div>
+            <div id="image-container"><img id="story-image" src="" alt="Story scene"></div>
+        </div>
+    </main>
+
+    <article>
+        <h2> Addendum </h2>
+        <h3>Game Paths and Endings</h3>
+        <ul>
+            <li><strong>Run away:</strong> forest → run → Ending 1</li>
+            <li><strong>Swim to shore:</strong> river → bridge → shore → Ending 2</li>
+            <li><strong>Let the current take him:</strong> river → current → Ending 3</li>
+            <li><strong>Fight:</strong> forest → sound → fight → Ending 4 or 7, depending on further choices:
+                <ul>
+                    <li>Rest in a cave → Ending 6</li>
+                    <li>Seek help → Ending 7</li>
+                    <li>Keep moving despite injuries → Ending 4</li>
+                </ul>
+            </li>
+            <li><strong>Climb a tree:</strong> forest → sound → tree → Ending 5</li>
+            <li><strong>Rest in a cave:</strong> fight → cave → Ending 6</li>
+            <li><strong>Seek help:</strong> fight → rescue → Ending 7</li>
+            <li><strong>Follow the scent:</strong> river → shallow → family → Ending 8 (Happy Ending)</li>
+        </ul>
+    </article>
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+   
+</body>
+</html>
