@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights Out Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Lights Out</h1>
+        <div id="game-board"></div>
+
+        <!-- Addendum Section -->
+        <div id="addendum">
+            <h2>How to Play</h2>
+            <p>Lights Out is a challenging puzzle game that consists of a 5x5 grid of lights. In this game, each light can either be turned on or off. Initially, some of the lights are on (displayed in black), while others are off (displayed in white). The main goal of the game is to turn off all the lights. The challenge lies in the way the lights interact with each other.</p>
+            <p>When you click on a light, it toggles between on and off, and also causes its adjacent lights to toggle. The lights that are adjacent to the clicked light are those directly above, below, to the left, and to the right. This means that clicking one light could affect several others, making the game more complex and requiring strategic planning.</p>
+            <p>The game ends when all lights are turned off, and your objective is to accomplish this as efficiently as possible. Each time you reload the page, the game will generate a new, solvable configuration, providing you with a fresh challenge every time you play. The game is designed to be solvable, meaning there is always a sequence of moves that will allow you to turn off all the lights.</p>
+            <p>Enjoy the challenge and try to solve the puzzle in as few moves as possible! It’s a game of strategy, memory, and logic, and it can be a fun and engaging way to pass the time while testing your problem-solving skills.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+
+    <script>
+        var x = document.lastModified;
+        document.getElementById('lastModified').textContent = x;
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
